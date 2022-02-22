@@ -139,7 +139,7 @@ section .services i {
 }
 
 section .services {
-  background: #212529;
+  background: transparent;
   color: #f1f3f5;
   margin: 1.9rem 6rem;
   border-radius: 7px;
@@ -159,7 +159,8 @@ section .services h3 {
 
 section .services-1 {
   font-weight: bolder;
-  background: #dcdcdc;
+  background: transparent;
+  color: #f1f3f5;
   /* margin: 0.7rem; */
   margin: 1.9rem 6rem;
   border-radius: 7px;
@@ -196,8 +197,8 @@ section .services-1 h3 {
 section .main-services {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 8rem;
+  justify-content: space-around;
+  margin: 6rem;
 }
 
 section .main-services h3 {
@@ -211,7 +212,6 @@ section .main-services p {
 }
 
 #page-2 {
-  margin-top: 2rem;
 }
 
 .btn-resume {
@@ -222,6 +222,7 @@ section .main-services p {
 .btn-resume a {
   border: 1px solid golden;
   padding: 0.5rem;
+  padding-top: 0.7rem;
   background: #dcdcdc;
   color: black;
   font-weight: bolder;
@@ -232,6 +233,7 @@ section .main-services p {
   background: #212529;
   transition: all 1s ease-in-out;
   color: #dcdcdc;
+  border: 1px solid #dcdcdc;
 }
 
 #main-area {
@@ -294,6 +296,7 @@ footer .footer-t6 a {
 
 footer .footer-t6 a:hover {
   color: #444;
+  transition: all 0.4s ease-in-out;
 }
 
 footer .footer-t3 label {
