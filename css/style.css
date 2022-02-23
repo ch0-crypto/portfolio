@@ -134,10 +134,6 @@ section .text-section {
   color: #ced4da;
 }
 
-section .services i {
-  color: #212529;
-}
-
 section .services {
   background: transparent;
   color: #f1f3f5;
@@ -148,7 +144,7 @@ section .services {
 section .services p {
   font-weight: bolder;
   line-height: 1.6;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 
 section .services h3 {
@@ -180,12 +176,18 @@ section .services:hover {
 
 section .services-1 p {
   line-height: 1.6;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
+}
+
+.icon-services {
+  margin-left: 3.7rem;
+  margin-top: 2rem;
 }
 
 .icon-services-1 {
-  margin-left: 24.5rem;
+  margin-left: 3.7rem;
   stroke: #e9ecef;
+  margin-top: 2rem;
 }
 
 section .services-1 h3 {
@@ -203,7 +205,8 @@ section .main-services {
 
 section .main-services h3 {
   padding-bottom: 1rem;
-  text-align: center;
+  text-align: left;
+  margin-left: 2rem;
 }
 
 section .main-services p {
