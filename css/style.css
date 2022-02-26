@@ -37,7 +37,7 @@ header::before {
   right: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 header * {
@@ -48,6 +48,7 @@ header h1 {
   margin: 1.2rem;
   font-size: 3rem;
   color: black;
+  font-family: "raleway";
   font-weight: bolder;
   transform: translateY(-900px);
   animation: heading 1s forwards ease-in-out;
@@ -218,7 +219,8 @@ section .main-services p {
 }
 
 .btn-resume {
-  margin-left: 4rem;
+  margin-left: 30rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
 }
 
@@ -229,7 +231,7 @@ section .main-services p {
   background: #dcdcdc;
   color: black;
   font-weight: bolder;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 .btn-resume a:hover {
@@ -353,4 +355,167 @@ footer i:hover {
 
 footer .copyright p {
   margin: 1.5rem;
+}
+
+@media (max-width: 1030px) {
+  header #showcase img {
+    margin-right: 5rem;
+  }
+  section .btn-resume a {
+    margin-left: -8rem;
+  }
+}
+
+@media (max-width: 740px) {
+  header #showcase img {
+    width: 30%;
+  }
+
+  footer .footer-header {
+    margin-left: 14rem;
+    padding: 3rem;
+    display: block;
+  }
+  footer .footer-t1 {
+    margin-left: 12rem;
+
+    text-align: center;
+  }
+  header .showcase-text {
+    margin-top: 10rem;
+    font-size: 16px;
+  }
+
+  .footer-t7 h3 {
+    margin-top: 2rem;
+    margin-left: 10rem;
+    display: none;
+  }
+  footer .footer-t7 i {
+    margin-top: 2rem;
+    display: block;
+    padding: -4rem;
+  }
+  .btn-footer {
+    margin-top: 2rem;
+  }
+  .btn-resume {
+    padding: 2rem;
+    margin-left: 10rem;
+  }
+  section {
+    margin: 10rem;
+  }
+  section .services {
+    padding: 3rem;
+    margin-right: 2rem;
+  }
+  section .services-1 {
+    padding: 3rem;
+    margin-left: 2rem;
+  }
+  section .services-1 p {
+    display: contents;
+    text-align: center;
+    margin: 5rem;
+  }
+  section .services p {
+    display: contents;
+    text-align: center;
+    margin: 5rem;
+  }
+  section .services h3 {
+    margin-right: 3rem;
+  }
+  section .services-1 h3 {
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 555px) {
+  section .services-1 {
+    margin-left: 9rem;
+  }
+  section .main-services {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  section .services p {
+    margin: 4rem;
+  }
+
+  section .text-section {
+    display: contents;
+  }
+
+  #page-2 .page {
+    margin: 30rem;
+  }
+
+  section .btn-resume {
+    margin-left: 0.8rem;
+  }
+
+  header #showcase img {
+    display: none;
+  }
+  footer .footer-header {
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 390px) {
+  section .services-1 {
+    margin-left: 9rem;
+  }
+  section .main-services {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  section .services p {
+    margin: 4rem;
+  }
+
+  section .text-section {
+    display: contents;
+  }
+
+  #page-2 .page {
+    margin: 30rem;
+  }
+
+  section .btn-resume a {
+    margin-right: 4rem;
+    font-size: 14px;
+  }
+
+  header #showcase p {
+    font-size: 0.9rem;
+    margin-right: 3rem;
+  }
+
+  header #showcase img {
+    display: none;
+  }
+  footer .footer-header {
+    margin-left: 4rem;
+  }
+
+  footer .footer-t1 {
+    margin-right: 4rem;
+  }
+}
+
+@media (max-width: 875px) {
+  header #showcase img {
+    display: none;
+  }
+
+  section .main-services {
+    display: ;
+  }
 }
