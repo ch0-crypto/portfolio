@@ -431,8 +431,17 @@ footer .copyright p {
     margin-right: 3rem;
   }
 }
+/* 
+@media (max-width: 544px) {
+  body {
+    width: 100rem;
+  }
+} */
 
-@media (max-width: 555px) {
+@media (max-width: 570px) {
+  body {
+    width: 40remrem;
+  }
   section .services-1 {
     margin-left: 9rem;
   }
@@ -467,6 +476,9 @@ footer .copyright p {
 }
 
 @media (max-width: 390px) {
+  body {
+    width: 40rem;
+  }
   section .services-1 {
     margin-left: 9rem;
   }
@@ -507,6 +519,17 @@ footer .copyright p {
 
   footer .footer-t1 {
     margin-right: 4rem;
+  }
+}
+
+@media (max-width: 396px) {
+  section .btn-resume a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 422px) {
+  section .btn-resume a {
+    font-size: 10px;
   }
 }
 
