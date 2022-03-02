@@ -56,7 +56,7 @@ header h1 {
 }
 
 header h1 span {
-  color: red;
+  color: #66111c;
 }
 
 @keyframes heading {
@@ -75,13 +75,24 @@ header h1 span {
   font-weight: bolder;
   color: #ced4da;
 } */
+.hi {
+  margin-left: 3rem;
+  margin-bottom: 4rem;
+  color: #dcdcdc;
+  font-size: 1.7rem;
+}
+
+.hi span {
+  color: #66111c;
+  font-weight: 200px;
+}
 header .showcase-text {
-  margin-top: 19rem;
+  margin-top: 10rem;
   text-align: left;
   font-family: "lato";
   line-height: 1.7;
   font-weight: bolder;
-  margin-left: 3rem;
+  margin-left: 2.6rem;
   font-size: 1.1rem;
 }
 header #showcase {
@@ -258,10 +269,47 @@ section .main-services p {
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
 }
-
-#main-area * {
-  z-index: 10;
+.main-hero {
+  display: flex;
 }
+
+.retro-cars {
+  position: absolute;
+}
+.retro-cars img {
+  border-radius: 15px;
+  width: 40%;
+}
+
+.ominifoods {
+  position: absolute;
+}
+.ominifoods img {
+  border-radius: 15px;
+  margin-left: 43rem;
+  width: 40%;
+}
+.meet-greet {
+  position: absolute;
+}
+.meet-greet img {
+  border-radius: 15px;
+  margin-top: 17rem;
+  width: 40%;
+}
+.edge {
+  position: absolute;
+}
+
+.edge img {
+  border-radius: 15px;
+  margin-top: 17rem;
+  margin-left: 43rem;
+  width: 40%;
+}
+/* #main-area * {
+  z-index: 10;
+} */
 
 /* footer area */
 
@@ -281,7 +329,7 @@ footer h1 {
 }
 
 footer h1 span {
-  color: red;
+  color: #66111c;
 }
 
 footer .footer-header {
@@ -386,6 +434,10 @@ footer .copyright p {
     font-size: 16px;
   }
 
+  .main-hero {
+    display: none;
+  }
+
   .footer-t7 h3 {
     margin-top: 2rem;
     margin-left: 10rem;
@@ -440,15 +492,21 @@ footer .copyright p {
 
 @media (max-width: 570px) {
   body {
-    width: 40remrem;
+    width: 40rem;
+  }
+  section .main-services {
+    display: block;
   }
   section .services-1 {
-    margin-left: 9rem;
+    margin-right: 10rem;
   }
   section .main-services {
     font-size: 17px;
     display: flex;
     flex-direction: column;
+  }
+  .main-hero {
+    display: none;
   }
 
   section .services p {
@@ -456,11 +514,11 @@ footer .copyright p {
   }
 
   section .text-section {
-    display: contents;
+    display: block;
   }
 
   #page-2 .page {
-    margin: 30rem;
+    margin: 20rem;
   }
 
   section .btn-resume {
@@ -537,8 +595,41 @@ footer .copyright p {
   header #showcase img {
     display: none;
   }
+  body {
+    width: 60rem;
+  }
 
   section .main-services {
-    display: ;
+    display: block;
+  }
+  .btn-resume {
+    margin-left: 10rem;
+  }
+  .main-hero {
+    display: none;
+  }
+}
+/* 
+@media (max-width: 918px) {
+  .main-hero {
+    display: block;
+  }
+} */
+
+@media (max-width: 1163px) {
+  section .main-services {
+    display: block;
+  }
+  .main-hero .retro-cars {
+    width: 75%;
+  }
+  .main-hero .meet-greet {
+    width: 75%;
+  }
+  .main-hero .ominifoods {
+    width: 75%;
+  }
+  .main-hero .edge {
+    width: 75%;
   }
 }
