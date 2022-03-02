@@ -623,6 +623,10 @@ footer .copyright p {
   .main-hero .retro-cars {
     width: 75%;
   }
+
+  /* header .showcase .showcase-text {
+    margin-bottom: 4rem;
+  } */
   .main-hero .meet-greet {
     width: 75%;
   }
@@ -631,5 +635,11 @@ footer .copyright p {
   }
   .main-hero .edge {
     width: 75%;
+  }
+}
+
+@media (max-width: 998px) {
+  header #showcase img {
+    display: none;
   }
 }
